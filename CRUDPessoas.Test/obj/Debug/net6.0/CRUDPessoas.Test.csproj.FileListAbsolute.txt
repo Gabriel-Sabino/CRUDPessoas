@@ -336,3 +336,4 @@ D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\n
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.API.xml
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Castle.Core.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Moq.dll
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.sourcelink.json

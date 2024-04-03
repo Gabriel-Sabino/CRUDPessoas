@@ -259,3 +259,4 @@ D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas\bin\Debug\net6.0
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas\bin\Debug\net6.0\CRUDPessoas.API.xml
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas\obj\Debug\net6.0\CRUDPessoas.API.xml
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas\obj\Debug\net6.0\CRUDPessoas.API.sourcelink.json

@@ -32,10 +32,12 @@ namespace CRUDPessoas.Application.Services
             _ = await _pessoaFisicaRepository.GetPessoaFisicaByIdAsync(pessoaFisicaId)
                 ?? throw new ArgumentException("Necessario haver uma Pessoa Fisica para criar uma Pessoa Juridica");
 
-            bool verificaCNPJ = await _pessoaJuridicaRepository.GetPessoaJuridicaByCNPJAsync(pessoaJuridicaEntity.CNPJ);
+            bool verificaCNPJ = await _pessoaJuridicaRepository.GetVerificaPessoaJuridicaByCNPJAsync(pessoaJuridicaEntity.CNPJ);
+            bool verificaRazaoSocial = await _pessoaJuridicaRepository.GetVerificaPessoaJuridicaByRazaoSocialAsync(pessoaJuridicaEntity.RazaoSocial);
 
-            if (verificaCNPJ)
-                throw new ArgumentException("CNPJ ja existente");
+            if (verificaCNPJ || verificaRazaoSocial)
+                throw new ArgumentException("É Necessario informar CNPJ e RazaoSocial que não existam");
+
 
             pessoaJuridicaEntity.AdicionaPessoaFisicaId(pessoaFisicaId);
 
@@ -58,13 +60,20 @@ namespace CRUDPessoas.Application.Services
 
         public async Task<int> UpdatePessoaJuridicaAsync(int id, PessoaJuridicaUpdateInputModel pessoaJuridicaInputModel)
         {
-            var existingPessoaJuridica = await _pessoaJuridicaRepository.GetPessoaJuridicaByIdAsync(id)
+
+            bool verificaRazaoSocial = await _pessoaJuridicaRepository.GetVerificaPessoaJuridicaByRazaoSocialAsync(pessoaJuridicaInputModel.RazaoSocial);
+
+            if (verificaRazaoSocial)
+                throw new InvalidOperationException("Razao Social ja existente");
+
+
+            PessoaJuridica existingPessoaJuridica = await _pessoaJuridicaRepository.GetPessoaJuridicaByIdAsync(id)
                 ?? throw new InvalidOperationException("Pessoa Juridica não encontrada para atualizar.");
 
             existingPessoaJuridica.UpdateRazaoSocial(pessoaJuridicaInputModel.RazaoSocial);
             existingPessoaJuridica.UpdateNomeFantasia(pessoaJuridicaInputModel.NomeFantasia);
 
-            var updatedPessoaJuridica = await _pessoaJuridicaRepository.UpdatePessoaJuridicaAsync(existingPessoaJuridica);
+            int updatedPessoaJuridica = await _pessoaJuridicaRepository.UpdatePessoaJuridicaAsync(existingPessoaJuridica);
 
             return updatedPessoaJuridica;
         }

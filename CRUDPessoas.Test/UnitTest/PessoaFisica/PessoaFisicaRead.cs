@@ -41,7 +41,7 @@ namespace CRUDPessoas.UnitTests.Controllers
             Assert.NotNull(result);
             Assert.Equal(StatusCodes.Status200OK, result.StatusCode);
 
-            if (result != null)
+            if (result is not null)
             {
                 var data = result.Value as IEnumerable<PessoaFisicaViewModel>;
                 Assert.NotNull(data);

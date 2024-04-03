@@ -1,4 +1,5 @@
-﻿using CRUDPessoas.API.Controllers;
+﻿
+using CRUDPessoas.API.Controllers;
 using CRUDPessoas.Application.DTOs.InputModels.PessoaJuridica;
 using CRUDPessoas.Application.DTOs.ViewModels;
 using CRUDPessoas.Application.Interfaces.Services;

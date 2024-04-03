@@ -10,9 +10,9 @@ D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\CRUDPessoas.Application.AssemblyInfoInputs.cache
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\CRUDPessoas.Application.AssemblyInfo.cs
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\CRUDPessoas.Application.csproj.CoreCompileInputs.cache
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\CRUDPessoas.Application.sourcelink.json
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\CRUDPessoas.Application.csproj.CopyComplete
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\CRUDPessoas.Application.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\refint\CRUDPessoas.Application.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\CRUDPessoas.Application.pdb
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\ref\CRUDPessoas.Application.dll
-D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Application\obj\Debug\net6.0\CRUDPessoas.Application.sourcelink.json

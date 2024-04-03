@@ -12210,8 +12210,8 @@
     },
     "CRUDPessoas.API/1.0.0": {
       "type": "project",
-      "path": "../CRUDPessoas/CRUDPessoas.API.csproj",
-      "msbuildProject": "../CRUDPessoas/CRUDPessoas.API.csproj"
+      "path": "../CRUDPessoas.API/CRUDPessoas.API.csproj",
+      "msbuildProject": "../CRUDPessoas.API/CRUDPessoas.API.csproj"
     },
     "CRUDPessoas.Application/1.0.0": {
       "type": "project",
@@ -12272,11 +12272,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Projetos2024\\ProjetosGIT\\CRUDPessoas\\CRUDPessoas\\CRUDPessoas.API\\CRUDPessoas.API.csproj": {
+              "projectPath": "D:\\Projetos2024\\ProjetosGIT\\CRUDPessoas\\CRUDPessoas\\CRUDPessoas.API\\CRUDPessoas.API.csproj"
+            },
             "D:\\Projetos2024\\ProjetosGIT\\CRUDPessoas\\CRUDPessoas\\CRUDPessoas.Application\\CRUDPessoas.Application.csproj": {
               "projectPath": "D:\\Projetos2024\\ProjetosGIT\\CRUDPessoas\\CRUDPessoas\\CRUDPessoas.Application\\CRUDPessoas.Application.csproj"
-            },
-            "D:\\Projetos2024\\ProjetosGIT\\CRUDPessoas\\CRUDPessoas\\CRUDPessoas\\CRUDPessoas.API.csproj": {
-              "projectPath": "D:\\Projetos2024\\ProjetosGIT\\CRUDPessoas\\CRUDPessoas\\CRUDPessoas\\CRUDPessoas.API.csproj"
             }
           }
         }

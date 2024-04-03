@@ -1,4 +1,5 @@
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\bin\Debug\net6.0\CRUDPessoas.Infrastructure.deps.json
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\bin\Debug\net6.0\CRUDPessoas.Infrastructure.runtimeconfig.json
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\bin\Debug\net6.0\CRUDPessoas.Infrastructure.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\bin\Debug\net6.0\CRUDPessoas.Infrastructure.pdb
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\bin\Debug\net6.0\CRUDPessoas.Domain.dll
@@ -8,10 +9,10 @@ D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\o
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\CRUDPessoas.Infrastructure.AssemblyInfoInputs.cache
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\CRUDPessoas.Infrastructure.AssemblyInfo.cs
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\CRUDPessoas.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\CRUDPessoas.Infrastructure.sourcelink.json
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\CRUDPessoas.Infrastructure.csproj.CopyComplete
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\CRUDPessoas.Infrastructure.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\refint\CRUDPessoas.Infrastructure.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\CRUDPessoas.Infrastructure.pdb
-D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\ref\CRUDPessoas.Infrastructure.dll
-D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\bin\Debug\net6.0\CRUDPessoas.Infrastructure.runtimeconfig.json
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\CRUDPessoas.Infrastructure.genruntimeconfig.cache
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Infrastructure\obj\Debug\net6.0\ref\CRUDPessoas.Infrastructure.dll

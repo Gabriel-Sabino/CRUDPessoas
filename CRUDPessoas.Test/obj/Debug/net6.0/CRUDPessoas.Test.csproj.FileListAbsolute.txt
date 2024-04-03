@@ -14,6 +14,7 @@ D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\n
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Test.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Test.pdb
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\AutoMapper.dll
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Castle.Core.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\FluentValidation.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -67,6 +68,7 @@ D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\n
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Moq.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\NuGet.Common.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\NuGet.Configuration.dll
@@ -318,8 +320,9 @@ D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\n
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Application.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Domain.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Infrastructure.dll
-D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Application.pdb
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.API.pdb
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.API.xml
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Application.pdb
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Domain.pdb
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.Infrastructure.pdb
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.csproj.AssemblyReference.cache
@@ -327,13 +330,10 @@ D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\n
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.AssemblyInfoInputs.cache
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.AssemblyInfo.cs
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.csproj.CoreCompileInputs.cache
+D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.sourcelink.json
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.csproj.CopyComplete
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\refint\CRUDPessoas.Test.dll
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.pdb
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.genruntimeconfig.cache
 D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\ref\CRUDPessoas.Test.dll
-D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\CRUDPessoas.API.xml
-D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Castle.Core.dll
-D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\bin\Debug\net6.0\Moq.dll
-D:\Projetos2024\ProjetosGIT\CRUDPessoas\CRUDPessoas\CRUDPessoas.Test\obj\Debug\net6.0\CRUDPessoas.Test.sourcelink.json

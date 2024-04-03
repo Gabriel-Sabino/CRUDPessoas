@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDPessoas.API", "CRUDPessoas\CRUDPessoas.API.csproj", "{9C816B66-6596-45BD-9563-9642D0B90ABC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDPessoas.API", "CRUDPessoas.API\CRUDPessoas.API.csproj", "{9C816B66-6596-45BD-9563-9642D0B90ABC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDPessoas.Domain", "CRUDPessoas.Domain\CRUDPessoas.Domain.csproj", "{67180C10-0EB9-4FC0-828B-A609ABF4CB67}"
 EndProject

@@ -35,7 +35,7 @@ namespace CRUDPessoas.Infrastructure.Repositories
             return await _dbContext.PessoaJuridica.ToListAsync();
         }
 
-        public async Task<bool> GetPessoaJuridicaByCNPJAsync(string cnpj)
+        public async Task<bool> GetVerificaPessoaJuridicaByCNPJAsync(string cnpj)
         {
             return await _dbContext.PessoaJuridica.AnyAsync(x => x.CNPJ == cnpj);
         }
@@ -52,6 +52,11 @@ namespace CRUDPessoas.Infrastructure.Repositories
             return await _dbContext.PessoaJuridica
                 .AsNoTracking()
                 .SingleOrDefaultAsync(x => x.RazaoSocial == razaoSocial);
+        }
+
+        public async Task<bool> GetVerificaPessoaJuridicaByRazaoSocialAsync(string razaoSocial)
+        {
+            return await _dbContext.PessoaJuridica.AnyAsync(x => x.RazaoSocial == razaoSocial);
         }
 
         public async Task<int> UpdatePessoaJuridicaAsync(PessoaJuridica pessoaJuridica)

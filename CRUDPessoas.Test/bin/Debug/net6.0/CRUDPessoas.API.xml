@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CRUDPessoas.API</name>
+    </assembly>
+    <members>
+        <member name="T:CRUDPessoas.API.Controllers.PessoaFisicaController">
+            <summary>
+            Controller responsável por lidar com operações relacionadas a pessoas físicas.
+            </summary>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaFisicaController.#ctor(CRUDPessoas.Application.Interfaces.Services.IPessoaFisicaService)">
+            <summary>
+            Construtor da classe <see cref="T:CRUDPessoas.API.Controllers.PessoaFisicaController"/>.
+            </summary>
+            <param name="pessoaFisicaService">Serviço de pessoa física utilizado pelo controlador.</param>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaFisicaController.GetAllAsync">
+            <summary>
+            Obter todas as Pessoas Fisicas
+            </summary>
+            <returns>Coleção de Pessoas Fisicas</returns>
+            <response code="200">Sucesso</response>
+            <response code="500">Erro interno</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaFisicaController.GetByIdAsync(System.Int32)">
+            <summary>
+            Obter uma Pessoa Fisica por Id
+            </summary>
+            <param name="id">Identificador da Pessoa Fisica</param>
+            <returns>Dados da Pessoa Fisica especificada</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaFisicaController.GetByNameAsync(System.String)">
+            <summary>
+            Obter Pessoas que tenham o mesmo Nome
+            </summary>
+            <param name="name">Campo para trazer a/as Pessoas Fisicas em especifico</param>
+            <returns>Dados das Pessoas Fisicas especificada</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaFisicaController.CreateAsync(CRUDPessoas.Application.DTOs.InputModels.PessoaFisica.PessoaFisicaInputModel)">
+             <summary>
+             Cadastrar uma Pessoa Fisica
+             </summary>
+             <remarks>
+             {
+            "nome": "teste",
+            "rg": "111111111",
+            "cpf": "22222222222",
+            "dataNascimento": "2023-04-02T22:20:15.031Z"
+            }
+             </remarks>
+             <param name="pessoaFisicaInputModel">Dados da Pessoa Fisica</param>
+             <returns>Pessoa Fisica recém criada</returns>
+             <response code="200">Sucesso</response>
+             /// <response code="400">Sucesso</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaFisicaController.UpdateAsync(System.Int32,CRUDPessoas.Application.DTOs.InputModels.PessoaFisica.PessoaFisicaUpdateInputModel)">
+            <summary>
+            Atualizar uma Pessoa Fisica
+            </summary>
+            <remarks>
+            {
+            "name": "string"
+            }
+            </remarks>
+            <param name="id">Identificador da Pessoa Fisica</param>
+            <param name="pessoaFisicaInputModel">Dados da Pessoa Fisica que deseja atualizar</param>
+            <returns>Sem Conteudo</returns>
+            <response code="200">Sucesso</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaFisicaController.Delete(System.Int32)">
+            <summary>
+            Deletar uma Pessoa Fisica
+            </summary>
+            <param name="id">Identificador da Pessoa Fisica</param>
+            <returns>Sem Conteudo</returns>
+            <response code="204">Sucesso</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="T:CRUDPessoas.API.Controllers.PessoaJuridicaController">
+            <summary>
+            Controller responsável por lidar com operações relacionadas a pessoas juridicas.
+            </summary>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaJuridicaController.#ctor(CRUDPessoas.Application.Interfaces.Services.IPessoaJuridicaService)">
+            <summary>
+            Construtor da classe <see cref="T:CRUDPessoas.API.Controllers.PessoaJuridicaController"/>.
+            </summary>
+            <param name="pessoaJuridicaService">Serviço de pessoa juridica utilizado pelo controlador.</param>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaJuridicaController.GetAllAsync">
+            <summary>
+            Obter todas as Pessoas Juridicas
+            </summary>
+            <returns>Coleção de Pessoas Juridicas</returns>
+            <response code="200">Sucesso</response>
+            <response code="500">Erro interno</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaJuridicaController.GetByIdAsync(System.Int32)">
+            <summary>
+            Obter uma Pessoa Juridica por Id
+            </summary>
+            <param name="id">Identificador da Pessoa Juridica</param>
+            <returns>Dados da Pessoa Juridica especificada</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaJuridicaController.GetByNameAsync(System.String)">
+            <summary>
+            Obter uma Pessoa Juridica que tenha o mesmo Nome
+            </summary>
+            <param name="razaoSocial">Campo para trazer a Pessoa Juridica em especifico</param>
+            <returns>Dados da Pessoa Juridica especificada</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaJuridicaController.CreateAsync(System.Int32,CRUDPessoas.Application.DTOs.InputModels.PessoaJuridica.PessoaJuridicaInputModel)">
+             <summary>
+             Cadastrar uma Pessoa Juridica
+             </summary>
+             <remarks>
+             {
+            "razaoSocial": "teste",
+            "nomeFantasia": "teste",
+            "cnpj": "12345678911111",
+            "dataAbertura": "2023-04-02T22:20:15.031Z"
+            }
+             </remarks>
+             <param name="pessoaFisicaId">Id da Pessoa Fisica vinculada</param>
+             <param name="pessoaJuridicaViewModel">Dados da Pessoa Juridica</param>
+             <returns>Pessoa Juridica recém criada</returns>
+             <response code="200">Sucesso</response>
+             /// <response code="400">Sucesso</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaJuridicaController.UpdateAsync(System.Int32,CRUDPessoas.Application.DTOs.InputModels.PessoaJuridica.PessoaJuridicaUpdateInputModel)">
+            <summary>
+            Atualizar uma Pessoa Juridica
+            </summary>
+            <remarks>
+            {
+            "razaoSocial": "teste",
+            "nomeFantasia": "teste"
+            }
+            </remarks>
+            <param name="id">Identificador da Pessoa Juridica</param>
+            <param name="pessoaJuridicaViewModel">Dados da Pessoa Juridica que deseja atualizar</param>
+            <returns>Sem Conteudo</returns>
+            <response code="200">Sucesso</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:CRUDPessoas.API.Controllers.PessoaJuridicaController.Delete(System.Int32)">
+            <summary>
+            Deletar uma Pessoa Juridica
+            </summary>
+            <param name="id">Identificador da Pessoa Juridica</param>
+            <returns>Sem Conteudo</returns>
+            <response code="204">Sucesso</response>
+            <response code="400">Bad Request</response>
+        </member>
+    </members>
+</doc>

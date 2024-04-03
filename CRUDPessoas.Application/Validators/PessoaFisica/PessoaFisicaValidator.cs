@@ -36,7 +36,7 @@ namespace CRUDPessoas.Application.Validators.PessoaFisica
                 .MaximumLength(11)
                     .WithMessage("Digite somente os numeros para o CPF");
 
-            RuleFor(dt => new DateTime(dt.DataNascimento.Year, dt.DataNascimento.Month, dt.DataNascimento.Day))
+            RuleFor(dt => dt.DataNascimento)
                 .LessThan(DateTime.Now.Date)
                     .WithMessage("Data de Nascimento deve ser anterior a data de hoje");
         }
@@ -70,6 +70,5 @@ namespace CRUDPessoas.Application.Validators.PessoaFisica
         {
             return IsValidNumber(rg, 8, 10);
         }
-
     }
 }

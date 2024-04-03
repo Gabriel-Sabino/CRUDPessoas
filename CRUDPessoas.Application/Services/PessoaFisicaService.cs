@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using CRUDPessoas.Application.DTOs.InputModels.PessoaFisica;
-using CRUDPessoas.Application.DTOs.ViewModels;
+using CRUDPessoas.Application.DTOs.ViewModels.PessoaFisica;
 using CRUDPessoas.Application.Interfaces.Services;
 using CRUDPessoas.Domain.Entities;
 using CRUDPessoas.Domain.Interfaces.Repository;

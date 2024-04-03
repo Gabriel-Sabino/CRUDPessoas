@@ -1,5 +1,5 @@
 ﻿using CRUDPessoas.Application.DTOs.InputModels.PessoaFisica;
-using CRUDPessoas.Application.DTOs.ViewModels;
+using CRUDPessoas.Application.DTOs.ViewModels.PessoaFisica;
 using CRUDPessoas.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -163,7 +163,7 @@ namespace CRUDPessoas.API.Controllers
             try
             {
 
-                var existingPessoaFisica = await _pessoaFisicaService.UpdatePessoaFisicaAsync(id, pessoaFisicaInputModel);
+                int existingPessoaFisica = await _pessoaFisicaService.UpdatePessoaFisicaAsync(id, pessoaFisicaInputModel);
                 if (existingPessoaFisica == 0)
                     return BadRequest();
 

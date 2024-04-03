@@ -1,5 +1,5 @@
 ﻿using CRUDPessoas.Application.DTOs.InputModels.PessoaFisica;
-using CRUDPessoas.Application.DTOs.ViewModels;
+using CRUDPessoas.Application.DTOs.ViewModels.PessoaFisica;
 using CRUDPessoas.Domain.Entities;
 using System;
 using System.Collections.Generic;

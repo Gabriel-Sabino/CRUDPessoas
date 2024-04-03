@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDPessoas.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+483998e448149c6fd8d6a7279273f175498daa67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22c87b171e9ea677bade62253a753ec17d1181e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDPessoas.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDPessoas.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

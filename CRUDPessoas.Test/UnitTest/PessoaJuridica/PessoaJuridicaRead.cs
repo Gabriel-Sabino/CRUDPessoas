@@ -1,5 +1,5 @@
 ﻿using CRUDPessoas.API.Controllers;
-using CRUDPessoas.Application.DTOs.ViewModels;
+using CRUDPessoas.Application.DTOs.ViewModels.PessoaJuridica;
 using CRUDPessoas.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

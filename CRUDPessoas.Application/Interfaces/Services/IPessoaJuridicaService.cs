@@ -1,5 +1,5 @@
 ﻿using CRUDPessoas.Application.DTOs.InputModels.PessoaJuridica;
-using CRUDPessoas.Application.DTOs.ViewModels;
+using CRUDPessoas.Application.DTOs.ViewModels.PessoaJuridica;
 using System;
 using System.Collections.Generic;
 using System.Linq;

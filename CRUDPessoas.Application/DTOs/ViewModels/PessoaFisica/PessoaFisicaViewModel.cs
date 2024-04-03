@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CRUDPessoas.Application.DTOs.ViewModels
+namespace CRUDPessoas.Application.DTOs.ViewModels.PessoaFisica
 {
     public class PessoaFisicaViewModel
     {

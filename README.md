@@ -1,5 +1,4 @@
 # CRUDPessoas
-
 ![image](https://github.com/Gabriel-Sabino/WakeCommerceCRUDProduct/assets/71478369/a04b19fc-7720-45bd-937c-3c8ec00c0de0)
 
 ![Version](https://img.shields.io/badge/Version%201.0-8A2BE2)
@@ -50,7 +49,7 @@ Siga estas etapas para instalar e executar o projeto localmente:
    ```bash
    cd seu-repositorio
 
-3. Abra o projeto e atualize DefaultConnection dentro do arquivo appsettings.json em WakeCommerceCRUDProduct.API
+3. Abra o projeto e atualize DefaultConnection dentro do arquivo appsettings.json em CRUDPessoas.API
    ```bash
    "ConnectionStrings": {
       "DefaultConnection": "Server=YourServer; Database=CRUDPessoas; Integrated Security=True; trustServerCertificate=true;"},
